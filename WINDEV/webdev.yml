@@ -1,0 +1,17 @@
+version: "2"
+services:
+ webdev-prod:
+  image: webdev_mobi33
+  volumes:
+   - webdev-prod:/var/lib/WEBDEV/26.0
+  networks:
+     MOBI33:
+        ipv4_address: 172.20.0.10
+  restart: always
+volumes:
+  webdev-prod:
+    external: true
+networks:
+  MOBI33:
+     external: true
+~                     
