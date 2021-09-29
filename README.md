@@ -1,2 +1,2 @@
-# m3
-# m3
+cd WINDEV
+sh mybox.sh
